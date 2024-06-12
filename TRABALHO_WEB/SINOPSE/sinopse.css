@@ -1,0 +1,517 @@
+body {
+    background: rgb(24, 24, 24); 
+    background: linear-gradient(135deg, #2980b9, #222a33); 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+    color: #000000; 
+    max-width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 7cm;
+    margin-right: -7cm;
+}
+
+nav ul {
+    list-style-type: none;
+    font-weight: bolder;
+    margin-right: 3cm;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #ffcc00;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2cm;
+}
+
+header .logo {
+    height: 50px;
+    transition: height 0.3s;
+    border-radius: 30cm;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    font-stretch: expanded;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: rgba(0, 166, 255, 0.1);
+}
+
+.section-title {
+    margin-left: 2cm;
+    display: flex;
+    justify-content: left;
+    align-items: left; 
+    gap: 2rem;
+}
+
+.h1 {
+    margin-bottom: 1cm;
+    margin-top: 2cm;
+    margin-left: 6.5cm;
+    font-family: Arial, sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.highlight {
+    color: #ffcc00; 
+    font-weight: bold;
+}
+
+.section-title {
+    align-content: center;
+}
+
+.usefulLinks {
+    background-color: #555;
+    border-radius: 3cm;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.movie-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.poster-container {
+    max-width: 200px;
+}
+
+.poster {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+    max-width: 600px;
+}
+
+.movie-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    margin-left: 3rem;
+}
+
+.release-year, .director {
+    font-size: 1.5rem;
+    color: #aaa;
+    margin-bottom: 0.5rem;
+    margin-left: 3rem;
+}
+
+.director-name {
+    font-weight: bold;
+    color: #fff;
+}
+
+.synopsis {
+    font-size: 1rem;
+    color: #ddd;
+    line-height: 1.5;
+    margin-left: 3rem;
+}
+
+.p1 {
+    text-align: left;
+    font-family: sans-serif;
+    color: white;
+    font-size: larger;
+    margin-left: 8cm;
+    margin-right: 0.5cm;
+    margin-top: -9cm;
+}
+
+.p2 {
+    margin-left: 1.3cm;
+    font-family: sans-serif;
+    color: white;
+}
+
+.poster {
+    margin-top: -1cm;
+    margin-left: cm;
+    width: 7cm;
+    height: 11cm;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.641);
+    border-radius: 3%;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 30px 0;
+    font-family: Arial, sans-serif;
+    text-align: center; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 0cm;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #ffcc00;
+}
+
+.footer-bottom {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    color: #ffcc00;
+}
+
+
+.div3 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.div3 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #fffbfb;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.div3 button {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ffbf00;
+}
+
+.div3 button i {
+    margin-left: 10px; 
+}
+
+.div3 button:hover {
+    background-color: #ffbf00;
+}
+
+.p3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #777;
+    margin-top: 10px;
+}
+
+.button-link {
+    text-decoration: none;
+}
+
+.social-links {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.social-links h2 {
+    margin-bottom: 15px;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-links ul li a:hover {
+    color: #ffcc00;
+}
+
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.3cm;
+        font-size: 10px;
+        flex-direction: column;
+        align-items: right;
+        margin-left: 6cm;
+        margin-right: -0.2cm;
+    }
+
+    .logo {
+        margin-top: 0.8cm;
+        margin-left: 1cm;
+        margin-right: -30cm;
+
+    }
+
+    .titulo {
+        margin-top: 1cm;
+        font-size: 25px;
+        margin-left: 2cm;
+        margin-right: -4cm;
+        
+
+    }
+
+    .h1 {
+        font-size: 25px;
+        margin-left: -1cm;
+        margin-bottom: -0.5cm;
+    }
+
+    .movie-title {
+        font-size: 17px;
+        margin-left: -0.8cm
+    }
+
+    .release-year {
+        font-size: 15px;
+        margin-left: -0.8cm
+    
+    }.p2 {
+        font-size: 15px;
+        margin-left: -0.8cm;
+    }
+
+    .director {
+        font-size: 15px;
+        margin-left: -0.8cm;
+        margin-bottom: 1.5cm;
+    }
+
+    .synopsis {
+        font-size: 13px;
+        margin-left: 3cm;
+        margin-top: -0.5cm;
+    }
+
+    .poster {
+        width: 3cm;
+        height: 5cm;
+        margin-right: -3cm;
+        margin-top: 1.5cm;
+    }
+
+    .div3 {
+        margin-top: 1cm;
+    }
+
+    .div3 h3 {
+        font-size: 25px;
+    }
+
+    .div3 button {
+        font-size: 14px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        margin-left: 2.8cm;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1050px) {
+    nav ul {
+        list-style-type: none;
+        display: block;
+        flex-wrap: wrap;
+        gap: 0.2cm;
+        font-size: 14px;
+        flex-direction: row;
+        align-items: right;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: -2cm;
+        margin-bottom: -1cm;
+        margin-top: 1cm;
+        margin-right: 4cm;
+    } 
+
+    .logo {
+        margin-top: 0cm;
+        margin-left: 7.2cm;
+        margin-right: -30cm;
+
+    }
+
+    .titulo {
+        margin-top: 0cm;
+        font-size: 25px;
+        margin-left: 8cm;
+        margin-right: -8cm;
+        
+
+    }
+}
